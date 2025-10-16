@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "malum",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Advanced dotted notation system",
   "main": "index.js",
   "keywords": [
