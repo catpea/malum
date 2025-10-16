@@ -1,12 +1,13 @@
 {
   "type": "module",
   "name": "malum",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Advanced dotted notation system",
-
   "main": "index.js",
-
-  "keywords": ["dotted", "chained"],
+  "keywords": [
+    "dotted",
+    "chained"
+  ],
   "author": "catpea (https://github.com/catpea)",
   "license": "MIT",
   "scripts": {
@@ -14,7 +15,6 @@
     "test": "node test.js",
     "prepublishOnly": "npm test"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/catpea/malum.git"
@@ -27,5 +27,4 @@
     "type": "github",
     "url": "https://github.com/sponsors/catpea"
   }
-
 }
