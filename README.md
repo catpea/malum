@@ -23,7 +23,7 @@ const actual = malum
 
 ```sh
 
-sleep 1; echo 1; sleep 2; echo 2; sleep 3; echo 3
+sleep 1; echo 1; sleep 2; echo 2; sleep 3; echo 3;
 
 ```
 
@@ -55,7 +55,6 @@ cat 'package.json' | grep 'name' | tr '[:lower:]' '[:upper:]'
 
     const root = new Malum();
     const actual = root .first .second("Meow") .third .fourth({ of: "July" }) .fifth .toArray();
-    console.log(actual);
     // [
     //   "first",
     //   { name: "second", opt: "Meow" },
@@ -71,7 +70,6 @@ cat 'package.json' | grep 'name' | tr '[:lower:]' '[:upper:]'
 
     const root = new Malum();
     const actual = root .first .second("Meow") .third .fourth({ of: "July" }) .fifth .toObjects();
-    console.log(actual);
     // [
     //   { name: "first", opt:{}}
     //   { name: "second", opt: "Meow" },
