@@ -116,6 +116,7 @@ import assert from "node:assert";
 // Basic path
 const root = new Malum();
 assert.deepEqual([...root.first.second.third], ["first", "second", "third"]);
+```
 
 ---
 
